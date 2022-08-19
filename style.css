@@ -24,6 +24,7 @@ body{
     justify-content: space-between;
     margin-right: 50px;
     width: 50%;
+    cursor: pointer;
 }
 
 .list :nth-child(1){
@@ -105,6 +106,7 @@ body{
     margin-top: 50px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
     background-image: linear-gradient(to bottom, #0ab4f6 0%, #0687ef 51%, #0576ed 100%);
 }
 
@@ -330,4 +332,80 @@ img[alt~="support"] {
 .customer-detail h4{
     margin-left: 20px;
     margin-top: 10px;
+}
+
+.container-h{
+    margin-top: 100px;
+    height: 300px;
+    background-image: url('./images/footer-bg.svg');
+}
+
+.concern{
+    display: flex;
+}
+.concern-left{
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 50%;
+    color: white;
+}
+
+.concern-left p{
+    width: 70%;
+}
+
+.concern-right{
+    margin-top: 150px;
+}
+
+.register-below{
+    background-color: transparent;
+    width: 170px;
+    height: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: -18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.footermain{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    height: 300px;
+}
+
+.item{
+    width: 33%;
+    margin-right: 50px;
+}
+
+.item1{
+    width: 17%;
+    margin-right: 50px;
+}
+
+.item1 h3{
+    margin-bottom: 20px;
+}
+
+.item1 li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    color: #7c8499;
+    cursor: pointer;
+}
+
+.item p{
+    width: 110%;
+    color: #7c8499;
+}
+
+img[alt~="footer-logo"]{
+    width: 33%;
 }
